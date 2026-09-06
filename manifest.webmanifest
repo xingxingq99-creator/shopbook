@@ -2,7 +2,7 @@
   "name": "小店账本",
   "short_name": "小店账本",
   "description": "今天卖了多少",
-  "start_url": "3index.html",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#F5EFE3",
