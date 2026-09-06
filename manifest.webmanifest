@@ -1,0 +1,18 @@
+{
+  "name": "小店账本",
+  "short_name": "小店账本",
+  "description": "今天卖了多少",
+  "start_url": "3index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5EFE3",
+  "theme_color": "#F5EFE3",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
