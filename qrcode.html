@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小店账本 · 扫码下载</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f5f5;color:#222;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px}
+  .page{background:#fff;border-radius:16px;padding:32px 24px;max-width:420px;width:100%;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+  .icon{width:64px;height:64px;margin:0 auto 16px;border-radius:16px;background:#DD6B3A;display:grid;place-items:center;color:#fff;font-size:32px;font-weight:900;font-family:Georgia,serif}
+  .name{text-align:center;font-size:22px;font-weight:700}
+  .sub{text-align:center;color:#888;font-size:13px;margin-top:6px;margin-bottom:24px}
+  .qr{display:flex;justify-content:center;margin-bottom:28px}
+  .qr img{width:240px;height:240px;border:1px solid #eee;border-radius:12px}
+  .section{margin-top:24px;padding-top:20px;border-top:1px solid #eee}
+  .section h3{font-size:15px;font-weight:600;margin-bottom:10px}
+  .section ol{padding-left:20px;color:#555;font-size:13px;line-height:2}
+  .section ol li{margin:2px 0}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="icon">¥</div>
+  <div class="name">小店账本</div>
+  <div class="sub">扫码开始你的小店记账</div>
+  <div class="qr">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=480x480&data=https%3A%2F%2Fxingxingq99-creator.github.io%2Fshopbook%2F" alt="二维码">
+  </div>
+  <div class="section">
+    <h3>🍎 iPhone</h3>
+    <ol>
+      <li>相机扫码 → Safari 打开</li>
+      <li>点底部分享按钮</li>
+      <li>选「添加到主屏幕」→ 添加</li>
+    </ol>
+  </div>
+  <div class="section">
+    <h3>🤖 安卓</h3>
+    <ol>
+      <li>相机扫码 → Chrome 打开</li>
+      <li>点右上角三个点⋮</li>
+      <li>选「添加到主屏幕」或「安装应用」</li>
+    </ol>
+  </div>
+</div>
+</body>
+</html>
